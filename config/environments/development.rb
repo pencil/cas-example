@@ -30,4 +30,5 @@ CasExample::Application.configure do
   config.assets.debug = true
 
   config.rubycas.cas_base_url = 'https://localhost:3443/'
+  config.rubycas.force_ssl_verification = false
 end

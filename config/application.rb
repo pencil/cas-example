@@ -67,5 +67,6 @@ module CasExample
 
     config.rubycas.logger = Rails.logger
     config.rubycas.enable_single_sign_out = true
+    config.rubycas.force_ssl_verification = true
   end
 end
