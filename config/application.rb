@@ -66,5 +66,6 @@ module CasExample
     config.assets.version = '1.0'
 
     config.rubycas.logger = Rails.logger
+    config.rubycas.enable_single_sign_out = true
   end
 end
