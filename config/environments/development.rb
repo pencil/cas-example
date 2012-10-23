@@ -29,6 +29,6 @@ CasExample::Application.configure do
   # Expands the lines which load the assets
   config.assets.debug = true
 
-  config.rubycas.cas_base_url = 'https://localhost:3443/'
+  config.rubycas.cas_base_url = 'https://localhost:30443/'
   config.rubycas.force_ssl_verification = false
 end
