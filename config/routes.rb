@@ -1,5 +1,6 @@
 CasExample::Application.routes.draw do
   root to: 'demo#index'
+  get 'logout' => 'demo#logout'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
